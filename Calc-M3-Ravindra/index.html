@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <h3 style="color: white;">calc</h3>
+        <div class="outputbox">
+            <input id="inputv" readonly>
+        </div>
+        <div class="ibuttons">
+        <div class="allkeys">
+           <div class="item item1">
+            <button onclick="e+='7'
+        document.querySelector('#inputv').value=e">7</button>
+           </div>
+           <div class="item item2">
+            <button onclick="e+='8'
+        document.querySelector('#inputv').value=e">8</button>
+           </div>
+           <div class="item item3">
+            <button onclick="e+='9'
+        document.querySelector('#inputv').value=e">9</button>
+           </div>
+           <div class="item item4">
+            <button onclick="
+            e= e.substring(0, e.length - 1);
+        document.querySelector('#inputv').value=e">DEL</button>
+           </div>
+           <div class="item item5">
+            <button onclick="e+='4'
+        document.querySelector('#inputv').value=e">4</button>
+           </div>
+           <div class="item item6">
+            <button onclick="e+='5'
+        document.querySelector('#inputv').value=e">5</button>
+           </div>
+           <div class="item item7">
+            <button onclick="e+='6'
+        document.querySelector('#inputv').value=e">6</button>
+           </div>
+           <div class="item item8">
+            <button onclick="e+='+'
+        document.querySelector('#inputv').value=e">+</button>
+           </div>
+           <div class="item item9">
+            <button onclick="e+='1'
+        document.querySelector('#inputv').value=e">1</button>
+           </div>
+           <div class="item item10">
+            <button onclick="e+='2'
+        document.querySelector('#inputv').value=e">2</button>
+           </div>
+           <div class="item item11">
+            <button onclick="e+='3'
+        document.querySelector('#inputv').value=e">3</button>
+           </div>
+           <div class="item item12">
+            <button onclick="e+='-'
+        document.querySelector('#inputv').value=e">-</button>
+           </div>
+           <div class="item item13">
+            <button onclick="e+='.'
+        document.querySelector('#inputv').value=e">.</button>
+           </div>
+           <div class="item item14">
+            <button onclick="e+='0'
+        document.querySelector('#inputv').value=e">0</button>
+           </div>
+           <div class="item item15">
+            <button onclick="
+            if(e=='')
+            document.querySelector('#inputv').value=e
+           else
+            e+='/'
+            document.querySelector('#inputv').value=e"
+        >/</button>
+           </div>
+           <div class="item item16">
+            <button onclick=" if(e=='')
+            document.querySelector('#inputv').value=e
+           else
+            e+='*'
+            document.querySelector('#inputv').value=e">X</button>
+           </div>
+           <div class="item item17">
+            <button onclick="
+            try{
+                e=eval(e)
+            document.querySelector('#inputv').value=e
+            } catch (e){
+            document.querySelector('#inputv').value='Errror'
+            }">=</button>
+           </div>
+           <div class="item item18">
+            <button onclick="e=''
+             document.querySelector('#inputv').value=e">RESET</button>
+           </div>
+          
+        </div>
+        </div>
+    </div>
+</body>
+<script>
+    let e=''
+</script>
+</html>
